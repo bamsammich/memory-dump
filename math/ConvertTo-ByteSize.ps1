@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
   [Parameter(Mandatory)]
-  [ValidatePattern('[0-9\.]+\s?[a-zA-Z]i?[bB]?')]
+  [ValidatePattern('[0-9\.]+\s?[a-zA-Z][iI]?[bB]?')]
   [string]$Size
 )
 
